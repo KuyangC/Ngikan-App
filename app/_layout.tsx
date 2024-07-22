@@ -45,7 +45,7 @@ export default function RootLayout() {
           headerShown: false,
           tabBarButton: () => null,
           tabBarStyle: {
-            display: "none"
+           /* display: "none" */
           }
         }}
       />
@@ -55,7 +55,7 @@ export default function RootLayout() {
           tabBarButton: () => null,
           headerShown: false,
           tabBarStyle: {
-            display: "none"
+           /* display: "none"*/
           }
         }}
       />
@@ -77,6 +77,34 @@ export default function RootLayout() {
       }
     }}
   />
+  <Tabs.Screen
+        name="ikan1"
+        options={{
+          tabBarButton: () => null,
+          headerShown: false,
+        }}
+      />
+      <Tabs.Screen
+        name="ikan2"
+        options={{
+          tabBarButton: () => null,
+          headerShown: false,
+        }}
+      />
+      <Tabs.Screen
+        name="ikan3"
+        options={{
+          tabBarButton: () => null,
+          headerShown: false,
+        }}
+      />
+      <Tabs.Screen
+        name="pasar"
+        options={{
+          tabBarButton: () => null,
+          headerShown: false,
+        }}
+      />
     </Tabs>
   );
 }
